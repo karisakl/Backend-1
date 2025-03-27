@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "6c147de6-f4fe-463f-8891-c70de654697f",
+		"name": "News API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40332852"
+	},
+	"item": [
+		{
+			"name": "linux",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer de0e8610667b4b448dde1f185571abdc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=linux&apiKey=de0e8610667b4b448dde1f185571abdc",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "linux"
+						},
+						{
+							"key": "apiKey",
+							"value": "de0e8610667b4b448dde1f185571abdc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Разработка",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer de0e8610667b4b448dde1f185571abdc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=разработка&language=ru&from=2024-11-25&to=2024-12-10&apiKey=de0e8610667b4b448dde1f185571abdc",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "разработка"
+						},
+						{
+							"key": "language",
+							"value": "ru"
+						},
+						{
+							"key": "from",
+							"value": "2024-11-25"
+						},
+						{
+							"key": "to",
+							"value": "2024-12-10"
+						},
+						{
+							"key": "apiKey",
+							"value": "de0e8610667b4b448dde1f185571abdc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "linux2",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer de0e8610667b4b448dde1f185571abdc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=linux&language=ru&page=3&pageSize=10&apiKey=de0e8610667b4b448dde1f185571abdc",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "linux"
+						},
+						{
+							"key": "language",
+							"value": "ru"
+						},
+						{
+							"key": "page",
+							"value": "3"
+						},
+						{
+							"key": "pageSize",
+							"value": "10"
+						},
+						{
+							"key": "apiKey",
+							"value": "de0e8610667b4b448dde1f185571abdc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "наука",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer de0e8610667b4b448dde1f185571abdc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?q=наука&country=ru&apiKey=de0e8610667b4b448dde1f185571abdc",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "наука"
+						},
+						{
+							"key": "country",
+							"value": "ru"
+						},
+						{
+							"key": "apiKey",
+							"value": "de0e8610667b4b448dde1f185571abdc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

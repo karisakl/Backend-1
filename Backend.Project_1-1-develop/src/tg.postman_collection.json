@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "2233afd3-ebde-4037-95c1-5cb5d7dfacfd",
+		"name": "tg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40332852"
+	},
+	"item": [
+		{
+			"name": "getMe",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getUpdates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc/getUpdates",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc",
+						"getUpdates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendMessage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "332007624",
+							"type": "text"
+						},
+						{
+							"key": "text",
+							"value": "Hello, World!",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc/sendMessage",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc",
+						"sendMessage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "photo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "332007624",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/Users/karisakl/Desktop/002.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc/sendPhoto",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc",
+						"sendPhoto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pdf",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "332007624",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/Users/karisakl/Desktop/Мероприятия Школы 21_март-июнь 2024_Q2 2024.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc/sendPhoto",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc",
+						"sendPhoto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "docx",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "chat_id",
+							"value": "332007624",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"type": "file",
+							"src": "/Users/karisakl/Downloads/Новый документ.docx"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.telegram.org/bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc/sendPhoto",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc",
+						"sendPhoto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc/getUserProfilePhotos?user_id=7225702385",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot7225702385:AAHQtkWTCzcCtIJFJIYxSqe1YyRTd-4DnMc",
+						"getUserProfilePhotos"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "7225702385"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

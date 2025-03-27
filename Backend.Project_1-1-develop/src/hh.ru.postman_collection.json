@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "78c656ad-f319-418a-98e7-577e1e71e719",
+		"name": "hh.ru",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40332852"
+	},
+	"item": [
+		{
+			"name": "contact",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "kazan.hh.ru"
+					},
+					{
+						"key": "accept",
+						"value": "application/json"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,ru;q=0.8"
+					},
+					{
+						"key": "cookie",
+						"value": "__ddg1_=WFycUvBioR3jibAh2YPU; hhuid=ybQnmg!eC3mQ1maeISMyTA--; tmr_lvid=0984c22ae968b65bd9a7fa3128a5efff; tmr_lvidTS=1721639204459; _ym_uid=1721639205241493540; _ym_d=1721639205; iap.uid=857eb190e9494a7a87dcfaeaeef02506; cookie_policy_agreement=true; redirect_host=kazan.hh.ru; region_clarified=kazan.hh.ru; uxs_uid=c5168d20-a59e-11ef-8be5-8bfe497840c4; hhul=d0d4334c0f0190cd5380d1d91805cafb8f97e13cb91fcdcb2b23fd3616c16ffc; _xsrf=321e2723a817d511c88efdceb5396136; display=desktop; crypted_hhuid=BD54E70D186A0CCAC48CFC6E5FA5113A9E6B97D8A2387F9397AFCB36F146A9B3; GMT=3; __ddg9_=178.207.154.251; _ym_isad=2; regions=1624; total_searches=3; _ym_visorc=w; domain_sid=pyA7XuOAbsHvAjD1cfJvE%3A1733908681271; remember=0; lrp=\"\"; lrr=\"\"; crypted_id=E2A14FA2C74299EDA0EACD9CFA97EE02A5471C6F722104504734B32F0D03E9F8; hhtoken=pyrniRwgXoAE9XIkZleI7XvOZ9!p; _hi=56510025; hhrole=applicant; __zzatgib-w-hh=MDA0dC0jViV+FmELHw4/aQsbSl1pCENQGC9LX3syQWkkX0diJkhaVXxYSxV3bCkLOD0UQkp2Li0/ayJoOVURCxIXRF5cVWl1FRpLSiVueCplJS0xViR8SylEXFB8LhkZCGwoUg0SVy8NPjteLW8PKhMjZHYhP04hC00+KlwVNk0mbjN3RhsJHlksfEspNVkJeVZLEjFsVFA4PWRDRSgvKztrIl9IXiF0WE42LBoRdyUjTzoQF3IzaWVpcC9gIBIlEU1HGEVkW0I2KBVLcU8cenZffSpCaCBoR2EoRFpQfCoVe0M8YwxxFU11cjgzGxBhDyMOGFgJDA0yaFF7CT4VHThHKHIzd2UuQWoeX0dbJDVRP0FaW1Q4NmdBEXUmCQg3LGBwVxlRExpceEdXeiwcFAhrK1gIEF5CQ2llbQwtUlFRS2IPHxo0aQteTA==1exNVw==; __zzatgib-w-hh=MDA0dC0jViV+FmELHw4/aQsbSl1pCENQGC9LX3syQWkkX0diJkhaVXxYSxV3bCkLOD0UQkp2Li0/ayJoOVURCxIXRF5cVWl1FRpLSiVueCplJS0xViR8SylEXFB8LhkZCGwoUg0SVy8NPjteLW8PKhMjZHYhP04hC00+KlwVNk0mbjN3RhsJHlksfEspNVkJeVZLEjFsVFA4PWRDRSgvKztrIl9IXiF0WE42LBoRdyUjTzoQF3IzaWVpcC9gIBIlEU1HGEVkW0I2KBVLcU8cenZffSpCaCBoR2EoRFpQfCoVe0M8YwxxFU11cjgzGxBhDyMOGFgJDA0yaFF7CT4VHThHKHIzd2UuQWoeX0dbJDVRP0FaW1Q4NmdBEXUmCQg3LGBwVxlRExpceEdXeiwcFAhrK1gIEF5CQ2llbQwtUlFRS2IPHxo0aQteTA==1exNVw==; tmr_detect=0%7C1733908917113; device_magritte_breakpoint=l; device_breakpoint=m; gsscgib-w-hh=KkgBT22z+IfBO+DxT2g49bttmF4Odvcz5TnB7LCOySKGMGXw/2qhI6pXRXa5v6/0f5d8LVfPmYDSG6O3kbinYCHnGQ/H7mPVmciQxAPzuEf8ZAcigBUhWWOkNZTh47ZvsIW1zJ4y3Gol8fsIBWGsP7xB4Y/0Rg3jsTbfPcQsZc/wm1Uo41r8kQX5Q7yS+VAPju63M8sZH9UHt4ptZmmaeT1rWfV75+dk4a2+ZFR49T7HiDbekGtl7GHalcd2gQp4gBXf0Uo=; cfidsgib-w-hh=j/cHgqKxgCjMFAJMemcPGEYr2Px0kri0d8d/SR1MgQRwKINrj1Ec4RfG4g9iLUYTKs3bFrgyEfFdcLedLdnmbLBDJrAHPJ9soNH0V1DaHUL8C/2IXcqRItptkIa941Ulod3hB9MJxACcyFjJOzH6yWFaEjT2/33lRr+rJNA+; cfidsgib-w-hh=j/cHgqKxgCjMFAJMemcPGEYr2Px0kri0d8d/SR1MgQRwKINrj1Ec4RfG4g9iLUYTKs3bFrgyEfFdcLedLdnmbLBDJrAHPJ9soNH0V1DaHUL8C/2IXcqRItptkIa941Ulod3hB9MJxACcyFjJOzH6yWFaEjT2/33lRr+rJNA+; cfidsgib-w-hh=j/cHgqKxgCjMFAJMemcPGEYr2Px0kri0d8d/SR1MgQRwKINrj1Ec4RfG4g9iLUYTKs3bFrgyEfFdcLedLdnmbLBDJrAHPJ9soNH0V1DaHUL8C/2IXcqRItptkIa941Ulod3hB9MJxACcyFjJOzH6yWFaEjT2/33lRr+rJNA+; gsscgib-w-hh=KkgBT22z+IfBO+DxT2g49bttmF4Odvcz5TnB7LCOySKGMGXw/2qhI6pXRXa5v6/0f5d8LVfPmYDSG6O3kbinYCHnGQ/H7mPVmciQxAPzuEf8ZAcigBUhWWOkNZTh47ZvsIW1zJ4y3Gol8fsIBWGsP7xB4Y/0Rg3jsTbfPcQsZc/wm1Uo41r8kQX5Q7yS+VAPju63M8sZH9UHt4ptZmmaeT1rWfV75+dk4a2+ZFR49T7HiDbekGtl7GHalcd2gQp4gBXf0Uo=; gsscgib-w-hh=KkgBT22z+IfBO+DxT2g49bttmF4Odvcz5TnB7LCOySKGMGXw/2qhI6pXRXa5v6/0f5d8LVfPmYDSG6O3kbinYCHnGQ/H7mPVmciQxAPzuEf8ZAcigBUhWWOkNZTh47ZvsIW1zJ4y3Gol8fsIBWGsP7xB4Y/0Rg3jsTbfPcQsZc/wm1Uo41r8kQX5Q7yS+VAPju63M8sZH9UHt4ptZmmaeT1rWfV75+dk4a2+ZFR49T7HiDbekGtl7GHalcd2gQp4gBXf0Uo=; __ddg10_=1733909708; __ddg8_=UXhAh5kRyhWymWE0; fgsscgib-w-hh=QI8nfafbafe56d94e7b952d6595a4c447a9a3ad5; fgsscgib-w-hh=QI8nfafbafe56d94e7b952d6595a4c447a9a3ad5"
+					},
+					{
+						"key": "referer",
+						"value": "https://kazan.hh.ru/?hhtmFrom=account_login"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-gib-fgsscgib-w-hh",
+						"value": "QI8nfafbafe56d94e7b952d6595a4c447a9a3ad5"
+					},
+					{
+						"key": "x-gib-gsscgib-w-hh",
+						"value": "KkgBT22z+IfBO+DxT2g49bttmF4Odvcz5TnB7LCOySKGMGXw/2qhI6pXRXa5v6/0f5d8LVfPmYDSG6O3kbinYCHnGQ/H7mPVmciQxAPzuEf8ZAcigBUhWWOkNZTh47ZvsIW1zJ4y3Gol8fsIBWGsP7xB4Y/0Rg3jsTbfPcQsZc/wm1Uo41r8kQX5Q7yS+VAPju63M8sZH9UHt4ptZmmaeT1rWfV75+dk4a2+ZFR49T7HiDbekGtl7GHalcd2gQp4gBXf0Uo="
+					},
+					{
+						"key": "x-hhtmfrom",
+						"value": "account_login"
+					},
+					{
+						"key": "x-hhtmsource",
+						"value": "main"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "x-xsrftoken",
+						"value": "321e2723a817d511c88efdceb5396136"
+					}
+				],
+				"url": {
+					"raw": "https://kazan.hh.ru/vacancy/112833814/contacts?employerId=72977&withQuestion=false",
+					"protocol": "https",
+					"host": [
+						"kazan",
+						"hh",
+						"ru"
+					],
+					"path": [
+						"vacancy",
+						"112833814",
+						"contacts"
+					],
+					"query": [
+						{
+							"key": "employerId",
+							"value": "72977"
+						},
+						{
+							"key": "withQuestion",
+							"value": "false"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
